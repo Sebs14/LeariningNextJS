@@ -32,16 +32,16 @@ const Navbar = () => {
                 <h1 style={{color: `${colorText}`}} className='font-bold text-4xl'>Portfolio</h1>
             </Link>
             <ul className='hidden sm:flex '>
-                <li className='p-4'>
+                <li style={{color: `${colorText}`}} className='p-4'>
                     <Link href='/'>Home</Link>
                 </li>
-                <li className='p-4'>
+                <li style={{color: `${colorText}`}} className='p-4'>
                     <Link href='/gallery'>Gallery</Link>
                 </li>
-                <li className='p-4'>
+                <li style={{color: `${colorText}`}} className='p-4'>
                     <Link href='/portfolio'>Work</Link>
                 </li>
-                <li className='p-4'>
+                <li style={{color: `${colorText}`}} className='p-4'>
                     <Link href='/contact'>Contact</Link>
                 </li>
             </ul>
