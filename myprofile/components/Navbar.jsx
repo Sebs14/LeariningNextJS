@@ -29,17 +29,17 @@ const Navbar = () => {
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
             <Link href='/'>
-                <h1 style={{color: `${colorText}`}} className='font-bold text-4xl'>Portfolio</h1>
+                <h1 style={{color: `${colorText}`}} className='font-bold text-4xl'>SF</h1>
             </Link>
             <ul className='hidden sm:flex '>
                 <li style={{color: `${colorText}`}} className='p-4'>
                     <Link href='/'>Home</Link>
                 </li>
                 <li style={{color: `${colorText}`}} className='p-4'>
-                    <Link href='/gallery'>Gallery</Link>
+                    <Link href='/#gallery'>About me</Link>
                 </li>
                 <li style={{color: `${colorText}`}} className='p-4'>
-                    <Link href='/portfolio'>Work</Link>
+                    <Link href='/work'>Work</Link>
                 </li>
                 <li style={{color: `${colorText}`}} className='p-4'>
                     <Link href='/contact'>Contact</Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
                         <Link href='/'>Home</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/gallery'>Gallery</Link>
+                        <Link href='/#gallery'>Gallery</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/portfolio'>Work</Link>
