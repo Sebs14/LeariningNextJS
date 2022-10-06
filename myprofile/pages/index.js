@@ -4,7 +4,7 @@ import Hero from '../components/Hero'
 import {SliderData} from '../components/SliderData'
 import Slider from '../components/Slider'
 import Instagram from '../components/Instagram'
-
+import AboutM from '../components/AboutMe'
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
           <Slider slides={SliderData}/> 
           <Instagram />
       */}
-      
+      <AboutM />
 
     </div>
   )
