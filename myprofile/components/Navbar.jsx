@@ -36,7 +36,7 @@ const Navbar = () => {
                     <Link href='/'>Home</Link>
                 </li>
                 <li style={{color: `${colorText}`}} className='p-4'>
-                    <Link href='/#gallery'>About me</Link>
+                    <Link href='/#aboutme'>About me</Link>
                 </li>
                 <li style={{color: `${colorText}`}} className='p-4'>
                     <Link href='/work'>Work</Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
                         <Link href='/'>Home</Link>
                     </li>
                     <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/#gallery'>About me</Link>
+                        <Link href='/#aboutme'>About me</Link>
                     </li>
                     <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/portfolio'>Work</Link>

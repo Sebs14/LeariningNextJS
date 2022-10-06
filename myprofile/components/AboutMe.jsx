@@ -14,10 +14,11 @@ const AboutMe = () => {
                 <Image src={MyImg} />
                 </div>
             </div>
-            <div className='flex-wrap justify-center items-center pt-8 md:pl-8'>
-                <h2 className='font-bold text-xl text-center pb-8'>Informatics Engineering student</h2>
+            <div className='flex-wrap justify-center items-center text-justify pt-8 md:pl-8'>
+                <h2 className='font-semibold text-xl text-center pb-8'>Informatics Engineering student</h2>
                 <p className=' font-light'>Hi, My name is Sebastián Flores I'm currently a fourth year student from the Informatics Engineering career at Universidad Centroamericana José Simeon Cañas.</p>
-                <p className='font-light'>Don't know what else to place in here xd</p>
+                <p className='font-light pt-2 '> I want to especialize myself on Front-end development as my professional career.</p>
+                <p className='font-light pt-2 '>I'm 21 years old and since I remember I've always dreamed to became a professional on this area, and now I know I have potential to accomplish this dream. </p>
             </div>
         </div>
     </div>
