@@ -22,6 +22,8 @@ export default function Home() {
       */}
       <AboutM />
       <Software/>
+      
+      
 
 
     </div>
