@@ -5,6 +5,7 @@ import {SliderData} from '../components/SliderData'
 import Slider from '../components/Slider'
 import Instagram from '../components/Instagram'
 import AboutM from '../components/AboutMe'
+import Software from '../components/LanguagesSkills'
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
           <Instagram />
       */}
       <AboutM />
+      <Software/>
+
 
     </div>
   )

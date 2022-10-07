@@ -15,10 +15,10 @@ const AboutMe = () => {
                 </div>
             </div>
             <div className='flex-wrap justify-center items-center text-justify pt-8 md:pl-8'>
-                <h2 className='font-semibold text-xl text-center pb-8'>Informatics Engineering student</h2>
-                <p className=' font-light'>Hi, My name is Sebastián Flores I'm currently a fourth year student from the Informatics Engineering career at Universidad Centroamericana José Simeon Cañas.</p>
-                <p className='font-light pt-2 '> I want to especialize myself on Front-end development as my professional career.</p>
-                <p className='font-light pt-2 '>I'm 21 years old and since I remember I've always dreamed to became a professional on this area, and now I know I have potential to accomplish this dream. </p>
+                <h2 className='font-semibold text-2xl text-center pb-8'>Informatics Engineering student</h2>
+                <p className='text-xl'>Hi, My name is Sebastián Flores I'm currently a fourth year student from the Informatics Engineering career at Universidad Centroamericana José Simeon Cañas.</p>
+                <p className='text-xl pt-2 '>I'm 21 years old and since I remember I've always dreamed to became a professional on this area, and now I know I have potential to accomplish this dream. </p>
+                <p className='text-xl pt-2 '> I want to especialize myself on Front-end development as my professional career.</p>
             </div>
         </div>
     </div>
