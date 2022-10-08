@@ -9,7 +9,7 @@ import { FaHtml5 } from 'react-icons/fa';
 
 const LanguagesSkills = () => {
   return (
-    <div className='p-8 bg-fixed bg-center bg-cover custom-img'>
+    <div id='work' className='p-8 bg-fixed bg-center bg-cover custom-img'>
     
       <h2 className='font-semibold text-2xl text-center underline text-black underline-offset-8'>Software Languages & Skills </h2>
       <div className='max-w-[1240px] mx-auto'>

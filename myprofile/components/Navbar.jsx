@@ -39,10 +39,7 @@ const Navbar = () => {
                     <Link href='/#aboutme'>About me</Link>
                 </li>
                 <li style={{color: `${colorText}`}} className='p-4'>
-                    <Link href='/work'>Work</Link>
-                </li>
-                <li style={{color: `${colorText}`}} className='p-4'>
-                    <Link href='/contact'>Contact</Link>
+                    <Link href='/#work'>Skills</Link>
                 </li>
             </ul>
 
@@ -61,11 +58,9 @@ const Navbar = () => {
                         <Link href='/#aboutme'>About me</Link>
                     </li>
                     <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/portfolio'>Work</Link>
+                        <Link href='/#work'>Skills</Link>
                     </li>
-                    <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/contact'>Contact</Link>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
