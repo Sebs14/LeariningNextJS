@@ -4,7 +4,7 @@ import MyImg from '../public/my-photo-2.png'
 
 const AboutMe = () => {
   return (
-    <div id='aboutme' className='max-w-[1240px] mx-auto'>
+    <div id='aboutme' className='max-w-[1240px] mx-auto  text-black'>
         
         <h1 className='text-2xl font-bold text-center py-2 underline underline-offset-8'>About Myself</h1>  
         

@@ -6,6 +6,8 @@ import Slider from '../components/Slider'
 import Instagram from '../components/Instagram'
 import AboutM from '../components/AboutMe'
 import Software from '../components/LanguagesSkills'
+import Softskill from '../components/SoftSkills'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -22,10 +24,11 @@ export default function Home() {
       */}
       <AboutM />
       <Software/>
-      
-      
-
-
+      <Softskill/>
+      <footer>
+        <Footer />
+      </footer>
     </div>
+    
   )
 }
