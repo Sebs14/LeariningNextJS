@@ -19,10 +19,10 @@ export default function Home() {
       </Head>
       <Hero heading='Sebastián Flores' message="Student of informatics engineering." mail="floresirahetasebastian@hotmail.com" phone="+503 7210-7214" place="San Salvador, San Salvador"/>
       {/* 
-          <Slider slides={SliderData}/> 
-          <Instagram />
-      */}
+      <Instagram />
+    */}
       <AboutM />
+      <Slider slides={SliderData}/> 
       <Software/>
       <Softskill/>
       <footer>

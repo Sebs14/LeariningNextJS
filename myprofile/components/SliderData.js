@@ -1,22 +1,26 @@
 export const SliderData = [
     {
+        title: "Vet4Paws",
+        url: "https://veterinary4paws.netlify.app",
         image: 
-        'https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80',
+        '/Vet4Paws.png',
     },
     {
+        title: "Foodies",
+        url: "https://foodies-elaniin-foodies-web.vercel.app",
         image: 
-        'https://images.unsplash.com/photo-1509966756634-9c23dd6e6815?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80',
+        '/Foodies.png',
     },
     {
+        title: "Pokedex",
+        url: "https://elaniin-pokedex-web-five.vercel.app",
         image: 
-        'https://images.unsplash.com/photo-1634838080334-28befa9efe80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+        '/pokedex.png',
     },
     {
+        title: "MDUPay",
+        url: "https://pay.mdu.dev",
         image: 
-        'https://images.unsplash.com/photo-1623520527569-fee1da87f598?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
-    },
-    {
-        image: 
-        'https://images.unsplash.com/photo-1624696612050-73b5891cafcf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+        '/MDUPay.png',
     },
 ];
