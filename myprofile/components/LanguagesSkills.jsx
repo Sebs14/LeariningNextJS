@@ -9,11 +9,11 @@ import { FaHtml5 } from 'react-icons/fa';
 
 const LanguagesSkills = () => {
   return (
-    <div id='work' className='p-8 bg-fixed bg-center bg-cover custom-img'>
+    <div id='work' className='p-8'>
     
-      <h2 className='font-semibold text-2xl text-center underline text-black underline-offset-8'>Software Languages & Skills </h2>
+      <h2 className='font-semibold text-2xl text-center underline text-black underline-offset-8'>Languages and skills </h2>
       <div className='max-w-[1240px] mx-auto'>
-        <div className='grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-32'>
+        <div className='grid grid-cols-1 sm:grid-cols-3 gap-2 md:gap-32'>
           <CardJS level='65 %'/>
           <CardHTML level='80 %'/>
           <CardReact level='70 %'/>

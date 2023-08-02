@@ -21,7 +21,7 @@ const Slider = ({ slides }) => {
 
   return (
     <div id="gallery" className="max-w-[1240px] mx-auto">
-      <h1 className="text-2xl font-bold text-center p-4">Gallery of works I've done</h1>
+      <h1 className="text-2xl font-bold text-center p-4">PROJECTS MADE BY ME</h1>
       <div className="relative flex justify-center p-4">
         <FaArrowCircleLeft
           onClick={prevSlide}
